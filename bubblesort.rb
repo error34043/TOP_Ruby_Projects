@@ -1,0 +1,4 @@
+# Compare each pair of elements. If element 1 is lower, leave it as such. If element 2 is lower, swap the two.
+# Number of passes required = n - 1 where n is the number of elements in the list
+# After m iterations through the array, the rightmost m elements are guaranteed to be sorted. So on the first iteration, sort n elements. On the second iteration, sort n - 1 elements, and so on.
+# After each iteration, check if the array is already sorted. Do this by raising a flag variable set to false. If any swaps are made in an iteration, it's value is set to true. If after the entire iteration, the flag variable's value is true, make another iteration. If after the entire iteration, the flag variable's value is false, stop sorting.
