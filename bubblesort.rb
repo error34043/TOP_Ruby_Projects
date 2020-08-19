@@ -3,6 +3,7 @@
   # Number of passes required = n - 1 where n is the number of elements in the list
   # After m iterations through the array, the rightmost m elements are guaranteed to be sorted. So on the first iteration, sort n elements. On the second iteration, sort n - 1 elements, and so on.
   # After each iteration, check if the array is already sorted. Do this by raising a flag variable set to false. If any swaps are made in an iteration, its value is set to true. If after the entire iteration, the flag variable's value is true, make another iteration. If after the entire iteration, the flag variable's value is false, stop sorting.
+  # Big thanks to Harvard's CS50 video on the Bubble Sort algorithm for help in understanding the problem and its optimization strategies!
 #####
 
 # Function to bubble sort a single pair of numbers
