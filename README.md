@@ -9,3 +9,6 @@ A program wich takes a string, compares each word in it with words stored in a d
 
 ### 3. Stock Picker
 A program which takes a list of stock prices (one price per day in chronological order) and returns a string containing information on the best combination of days to buy and sell in order to obtain maximum profit. Days start at 0.
+
+### 4. Bubble Sort
+A program which takes a string as an input and sorts the numbers from lowest to highest using [the Bubble Sort algorithm](http://en.wikipedia.org/wiki/Bubble_sort).
