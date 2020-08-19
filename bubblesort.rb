@@ -36,10 +36,10 @@ end
 # p bubblesort([6,5,8,52,40,27,83,1,245,32])
 
 # Get the numbers to test as a string input, convert it to an array
-print('What numbers would you like sorted? Please enter them in the style of x,y,z,...: ')
+#puts('What numbers would you like sorted? Please enter them in the style of x,y,z,...: ')
 user_str = gets.chomp
 inp_arr = user_str.split(",").map { |n| n.to_i }
-p bubblesort(inp_arr)
+print "The sorted array is: #{bubblesort(inp_arr)}."
 
 
 
